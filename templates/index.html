@@ -1,928 +1,837 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <!-- SITE TITTLE -->
-  <meta name="google-site-verification" content="Iyme7i_z34DjerGT1Bjfk0aYDR2OnIAM5fSFsCSUXhk" />
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="QNITA | NIT Agartala - Empowering students with innovative technology and resources. Explore projects, events, and updates.The National Institute of Technology Agartala(NITA),an Institute of National Importance (INI)">
-  <meta name="keywords" content="QNITA, NIT Agartala, technology, innovation, students, projects, events,nita clubs, nita, nita events, ibm qiskit fall fest, Aman Mishra web developer, aman mishra,nrif ranking nit agartala">
-  <meta name="author" content="QNITA Team, NIT Agartala">
-  <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://qnita.vercel.app">
-  <meta property="og:title" content="QNITA - NIT Agartala | IBM Qiskit Event 2024">
-  <meta property="og:description" content="The National Institute of Technology Agartala(NITA),an Institute of National Importance (INI). Explore projects, events, and updates.">
-  <meta property="og:url" content="https://qnita.vercel.app">
+  <meta name="google-site-verification" content="Iyme7i_z34DjerGT1Bjfk0aYDR2OnIAM5fSFsCSUXhk" />
+
+  <title>QNITA – Quantum Computing Club at NIT Agartala (NITA)</title>
+  <meta name="description"
+    content="QNITA is the student-led Quantum Computing Club at the National Institute of Technology Agartala (NIT Agartala / NITA). Workshops, hackathons, and the IBM Qiskit Fall Fest with IBM Quantum, Qiskit and IEEE.">
+  <meta name="keywords"
+    content="QNITA, NIT Agartala, NITA, National Institute of Technology Agartala, NIT Agartala clubs, NIT Agartala quantum, NITA Tripura, quantum computing club India, IBM Qiskit Fall Fest, NIT Agartala student events, NIT Agartala technology, NITA Jirania, QNITA NIT Agartala">
+  <meta name="author" content="QNITA, NIT Agartala">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+  <meta name="googlebot" content="index, follow">
+  <meta name="rating" content="general">
+  <meta name="referrer" content="no-referrer-when-downgrade">
+  <meta name="language" content="English">
+  <link rel="canonical" href="https://qnita.vercel.app/">
+  <meta name="theme-color" content="#000000">
+
+  <!-- Geo / location signals (Agartala, Tripura, India) -->
+  <meta name="geo.region" content="IN-TR">
+  <meta name="geo.placename" content="Agartala">
+  <meta name="geo.position" content="23.831457;91.286194">
+  <meta name="ICBM" content="23.831457, 91.286194">
+
+  <!-- Open Graph -->
+  <meta property="og:site_name" content="QNITA — NIT Agartala">
+  <meta property="og:locale" content="en_IN">
+  <meta property="og:title" content="QNITA – Quantum Computing Club at NIT Agartala (NITA)">
+  <meta property="og:description"
+    content="The student-led quantum computing club at the National Institute of Technology Agartala. Workshops, hackathons, and the IBM Qiskit Fall Fest.">
+  <meta property="og:url" content="https://qnita.vercel.app/">
   <meta property="og:type" content="website">
-  <title>QNITA - NIT Agartala | IBM Qiskit Event 2024</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <!-- Bootstrap -->
-  <link href="/static/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Themefisher Font -->  
-  <link href="/static/plugins/themefisher-font/style.css" rel="stylesheet">
-  <!-- Font Awesome -->
-  <link href="/static/plugins/font-awsome/css/font-awesome.min.css" rel="stylesheet">
-  <script src="https://unpkg.com/aos@next/dist/aos.js" defer></script>
-  <!-- CUSTOM CSS -->
+  <meta property="og:image" content="https://qnita.vercel.app/static/images/speakers/about.png">
+  <meta property="og:image:secure_url" content="https://qnita.vercel.app/static/images/speakers/about.png">
+  <meta property="og:image:alt" content="QNITA — Quantum Computing Club at NIT Agartala">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+
+  <!-- ====== Structured data (JSON-LD) ====== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://qnita.vercel.app/#qnita",
+        "name": "QNITA",
+        "alternateName": ["QNITA — Quantum Computing Club", "Quantum Computing Club, NIT Agartala", "QNITA NIT Agartala"],
+        "url": "https://qnita.vercel.app/",
+        "logo": "https://qnita.vercel.app/static/images/logo.png",
+        "image": "https://qnita.vercel.app/static/images/speakers/about.png",
+        "description": "QNITA is the student-led Quantum Computing Club at the National Institute of Technology Agartala (NIT Agartala / NITA). The club hosts workshops, hackathons, and flagship events such as the IBM Qiskit Fall Fest.",
+        "email": "qnita.explore@gmail.com",
+        "telephone": "+91-70054-15535",
+        "foundingDate": "2024",
+        "areaServed": "IN",
+        "knowsAbout": ["Quantum Computing", "Qiskit", "Quantum Machine Learning", "IBM Quantum"],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "NIT Agartala, Jirania",
+          "addressLocality": "Agartala",
+          "addressRegion": "Tripura",
+          "postalCode": "799046",
+          "addressCountry": "IN"
+        },
+        "parentOrganization": {
+          "@type": "CollegeOrUniversity",
+          "@id": "https://qnita.vercel.app/#nita",
+          "name": "National Institute of Technology Agartala",
+          "alternateName": ["NIT Agartala", "NITA"],
+          "url": "https://nita.ac.in",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Jirania, West Tripura",
+            "addressLocality": "Agartala",
+            "addressRegion": "Tripura",
+            "postalCode": "799046",
+            "addressCountry": "IN"
+          }
+        },
+        "sameAs": [
+          "https://www.instagram.com/qnita.explore/"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://qnita.vercel.app/#website",
+        "url": "https://qnita.vercel.app/",
+        "name": "QNITA — Quantum Computing Club, NIT Agartala",
+        "publisher": { "@id": "https://qnita.vercel.app/#qnita" },
+        "inLanguage": "en",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://qnita.vercel.app/?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "Event",
+        "name": "IBM Qiskit Fall Fest 2024 at NIT Agartala",
+        "startDate": "2024-10-27",
+        "endDate": "2024-11-14",
+        "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "image": "https://qnita.vercel.app/static/images/speakers/about.png",
+        "description": "A 14-day quantum computing fest hosted by NIT Agartala in collaboration with IBM Quantum, Qiskit, and IEEE — speaker sessions, hands-on workshops, and a hackathon.",
+        "location": [
+          {
+            "@type": "Place",
+            "name": "National Institute of Technology Agartala",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Jirania, West Tripura",
+              "addressLocality": "Agartala",
+              "addressRegion": "Tripura",
+              "postalCode": "799046",
+              "addressCountry": "IN"
+            }
+          },
+          {
+            "@type": "VirtualLocation",
+            "url": "https://qnita.vercel.app/#fallfest"
+          }
+        ],
+        "organizer": { "@id": "https://qnita.vercel.app/#qnita" },
+        "sponsor": [
+          { "@type": "Organization", "name": "IBM Quantum", "url": "https://www.ibm.com/quantum" },
+          { "@type": "Organization", "name": "Qiskit", "url": "https://www.qiskit.org" },
+          { "@type": "Organization", "name": "IEEE", "url": "https://www.ieee.org" }
+        ],
+        "performer": [
+          { "@type": "Person", "name": "Aditi Lal", "jobTitle": "Quantum Computing Educator", "sameAs": "https://www.linkedin.com/in/aditi-lal-sau11/" },
+          { "@type": "Person", "name": "Jay Shah", "jobTitle": "Quantum ML Developer", "sameAs": "https://www.linkedin.com/in/jay-shah-qml/" },
+          { "@type": "Person", "name": "Vardaan Sahgal", "jobTitle": "Software Solutions Head, Womanium Quantum", "sameAs": "https://www.linkedin.com/in/vardaansahgal/" },
+          { "@type": "Person", "name": "Prasanta K. Panigrahi", "jobTitle": "Professor, IISER Kolkata", "sameAs": "https://www.linkedin.com/in/prasanta-panigrahi-a2276457/" }
+        ],
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/SoldOut",
+          "url": "https://qnita.vercel.app/#fallfest"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "Do I need prior quantum knowledge to join QNITA events?", "acceptedAnswer": { "@type": "Answer", "text": "No. QNITA covers the basics from scratch — no Python or quantum mechanics background required." } },
+          { "@type": "Question", "name": "How do I stay updated on QNITA events at NIT Agartala?", "acceptedAnswer": { "@type": "Answer", "text": "Follow @qnita.explore on Instagram and check qnita.vercel.app for upcoming events." } },
+          { "@type": "Question", "name": "Can I bring friends to QNITA events?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — guests are welcome, but please make sure they register, especially for offline seats." } },
+          { "@type": "Question", "name": "Is there a certificate for participants?", "acceptedAnswer": { "@type": "Answer", "text": "All active participants receive a participation certificate. Hackathon top-3 across categories receive achievement certificates." } },
+          { "@type": "Question", "name": "Are there hands-on labs at the Qiskit Fall Fest?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — interactive sessions where you run circuits using Qiskit on real IBM quantum hardware." } }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "QNITA Home", "item": "https://qnita.vercel.app/" },
+          { "@type": "ListItem", "position": 2, "name": "About", "item": "https://qnita.vercel.app/aboutUs" }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+
   <link href="/static/css/style.css" rel="stylesheet">
-
-  <!-- FAVICON -->
   <link href="/static/images/favicon.png" rel="shortcut icon">
-
 </head>
-<body class="body-wrapper">
-<nav style="background-color: rgba(0, 0, 0, 0.8); box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); padding: 10px 0;" class="navbar fixed-top navbar-expand-lg">
-  <div class="container-fluid">
 
-    <!-- Logo -->
-    <a class="navbar-brand" href="/" style="font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 2rem; text-transform: uppercase; letter-spacing: 3px; color: rgba(106, 0, 182, 0.93); text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);">
-		<img src="static/images/logo.png" alt="QNITA Logo" style="width: 100px; height: auto;">
-	</a>
-	
+<body>
 
-    <!-- Toggler button -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="border: none;">
-      <span style="color: white;"><i class="fa fa-bars"></i></span>
-    </button>
-
-    <!-- Navbar links -->
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav mx-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="/" style="color: white; font-size: 1rem; padding: 10px 20px; transition: all 0.3s;">HOME</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/#sponsors" style="color: white; font-size: 1rem; padding: 10px 20px; transition: all 0.3s;">SPONSORS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/#schedule" style="color: white; font-size: 1rem; padding: 10px 20px; transition: all 0.3s;">SCHEDULE</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/#speakers" style="color: white; font-size: 1rem; padding: 10px 20px; transition: all 0.3s;">SPEAKERS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://drive.google.com/drive/folders/1qCxE2jnv68ORIRp0qNO7skNDOr-V57dq" target="_blank" style="color: white; font-size: 1rem; padding: 10px 20px; transition: all 0.3s;">STUDY MATERIAL</a>
-        </li>
-		<li class="nav-item dropdown">
-			<a class="nav-link" href="#" id="navbarPages" role="button" aria-haspopup="true" aria-expanded="false" style="color: white; font-size: 1rem; padding: 10px 20px; transition: all 0.3s;">
-			  MORE
-			</a>
-			<div class="dropdown-menu" aria-labelledby="navbarPages" style="background-color: rgba(0, 0, 0, 0.8);">
-				<a class="dropdown-item" href="/#members" style="color: white; transition: all 0.3s;">TEAM MEMBER</a>
-				<a class="dropdown-item" href="/aboutUs" style="color: white; transition: all 0.3s;">ABOUT US</a>
-			  <a class="dropdown-item" href="/#blogs" style="color: white; transition: all 0.3s;">BLOGS</a>
-			  <a class="dropdown-item" href="/#faq" style="color: white; transition: all 0.3s;">FAQ</a>
-			</div>
-		  </li>
-      </ul>
-
-      <a href="https://lu.ma/event/evt-47iwsontHsnGnDv" data-luma-action="checkout" data-luma-event-id="evt-47iwsontHsnGnDv" style="color: white; text-decoration: none;">
-        <div style="padding: 10px 20px; background: linear-gradient(90deg, rgba(106, 0, 182, 0.93), black); border-radius: 50px; color: white; text-align: center; transition: all 0.3s;">
-          REGISTER FOR EVENT
-        </div>
-      </a>
+  <!-- ==================== Loader ==================== -->
+  <div class="loader" id="loader" aria-hidden="true">
+    <div class="loader__stage">
+      <svg class="loader__orbit" viewBox="0 0 200 200" aria-hidden="true">
+        <defs>
+          <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#8b5cf6" />
+            <stop offset="50%" stop-color="#ec4899" />
+            <stop offset="100%" stop-color="#38bdf8" />
+          </linearGradient>
+        </defs>
+        <circle cx="100" cy="100" r="92" stroke="rgba(255,255,255,0.06)" stroke-width="1" fill="none" />
+        <circle cx="100" cy="100" r="92" stroke="url(#lg)" stroke-width="1.5" fill="none" stroke-linecap="round"
+          stroke-dasharray="120 580" class="loader__arc" />
+        <circle cx="100" cy="100" r="60" stroke="rgba(255,255,255,0.04)" stroke-width="1" fill="none" />
+        <circle cx="100" cy="8" r="3" fill="#8b5cf6" class="loader__electron" />
+      </svg>
+      <div class="loader__brand">
+        <span>Q</span><span>N</span><span>I</span><span>T</span><span>A</span>
+      </div>
+      <div class="loader__sub">Initialising&nbsp;quantum&nbsp;state…</div>
     </div>
   </div>
-</nav>
 
-<!--====  End of Navigation Section  ====-->
-{% block content %}
-<!--============================
-=            Banner            =
-=============================-->
-<section class="banner bg-banner-one">
-	<div id="particles-js" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; z-index: 1;"></div>
-	
-	
-	<div class="container" style="position: relative; z-index: 3;">
-	  <div class="row">
-		<div class="col-lg-12">
-		  <!-- Content Block -->
-		  <div class="block">
-			<h1 style="font-family: 'Poppins', sans-serif; font-size: 6rem; font-weight: 700; color: white; text-transform: uppercase; text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);">
-			  <span style="color: rgba(106, 0, 182, 0.93);">Q</span>NITA '24
-			</h1>
-			<h2 style="font-family: 'Poppins', sans-serif; font-size: 2rem; font-style: normal; font-weight: 400; color: white; text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6); letter-spacing: 1px;background: linear-gradient(45deg, #6a00b6, #ff4081); -webkit-background-clip: text; color: transparent;">
-			  IBM Qiskit Fall Fest at NIT Agartala Hosted with IEEE
-			</h2>
-			<h6 style="font-family: 'Poppins', sans-serif; font-size: 1.2rem; font-weight: 300; color: white; text-transform: uppercase; text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); letter-spacing: 2px;">
-			  <span id="dynamic-text"></span>
-			</h6>
-			<!-- Action Button -->
-			<a href="https://lu.ma/event/evt-47iwsontHsnGnDv" data-luma-action="checkout" data-luma-event-id="evt-47iwsontHsnGnDv" class="btn btn-gradient" style="padding: 10px 20px; background: linear-gradient(120deg, rgba(106, 0, 182, 0.93), black); border-radius: 50px; color: white; text-align: center; transition: all 0.3s; text-transform: uppercase; letter-spacing: 2px; z-index: 4; position: relative;">
-				REGISTER NOW
-			</a>
-		  </div>
-		</div>
-	  </div>
-	</div>
-</section>
+  <!-- ==================== Navigation ==================== -->
+  <header class="nav">
+    <div class="nav__inner">
+      <a class="nav__brand" href="/" aria-label="QNITA Home">
+        <img src="/static/images/logo.png" alt="QNITA">
+      </a>
 
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#about">ABOUT</a>
+        <a href="#fallfest">FALL FEST '24</a>
+        <a href="#speakers">SPEAKERS</a>
+        <a href="#schedule">SCHEDULE</a>
+        <a href="#team">TEAM</a>
+        <a href="#faq">FAQ</a>
+      </nav>
 
+      <div class="nav__cta">
+        <a class="btn btn--ghost" href="https://drive.google.com/drive/folders/1qCxE2jnv68ORIRp0qNO7skNDOr-V57dq"
+          target="_blank" rel="noopener">Resources</a>
+        <a class="btn btn--primary" href="https://www.instagram.com/qnita.explore/" target="_blank"
+          rel="noopener">Follow us</a>
+      </div>
 
-<!--====  End of Banner  ====-->
-<section class="registration" style="padding-left: 80px; padding-right: 80px; padding-top: 120px; padding-bottom: 100px;">
-    <div class="container-fluid" style="padding: 50px 0;">
-        <div class="row justify-content-center">
-            {% for label, value in {'Speakers': '4+', 'Seats': '500+',  'Days Event': '14'}.items() %}
-            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <div class="stat-item text-center" style="background-color: #000000; color: #fff; padding: 40px 20px; border-radius: 15px; position: relative; overflow: hidden; transition: all 0.3s ease; box-shadow: rgba(142, 0, 199, 0.734) 0px 7px 29px 0px;">
-                    <div style="position: absolute; top: 0; left: 0; height: 100%; width: 5px; background: linear-gradient(180deg, rgba(142, 0, 199, 1) 0%, rgba(255, 0, 85, 1) 100%);"></div>
-                    <h2 style="font-size: 2.5rem; font-weight: 700; margin-bottom: 10px;">{{ value }}</h2>
-                    <p style="font-size: 1.1rem; margin: 0;">{{ label }}</p>
-                </div>
-            </div>
-            {% endfor %}
-        </div>
+      <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
     </div>
-</section>
 
-<!--====  End of Registration  ====-->
-<!--==== About  ====-->
-<section class="section about" style="background-color: #000; color: #fff; padding: 50px 0;">
+    <div class="nav__mobile" id="navMobile">
+      <a href="#about">ABOUT</a>
+      <a href="#fallfest">FALL FEST '24</a>
+      <a href="#speakers">SPEAKERS</a>
+      <a href="#schedule">SCHEDULE</a>
+      <a href="#team">TEAM</a>
+      <a href="#faq">FAQ</a>
+      <a href="https://drive.google.com/drive/folders/1qCxE2jnv68ORIRp0qNO7skNDOr-V57dq" target="_blank"
+        rel="noopener">Resources</a>
+      <a href="https://www.instagram.com/qnita.explore/" target="_blank" rel="noopener">Follow us</a>
+    </div>
+  </header>
+
+  {% block content %}
+
+  <!-- ==================== Hero ==================== -->
+  <section class="hero">
+    <div class="hero__bg" aria-hidden="true">
+      <div class="hero__glow"></div>
+      <div class="hero__grid"></div>
+    </div>
+
+    <div class="hero__top">
+      <div class="container hero__top-inner">
+        <span><i></i>QNITA / EST. 2024</span>
+        <span class="hero__top-right">NIT Agartala &mdash; Tripura, India</span>
+      </div>
+    </div>
+
+    <div class="container hero__container">
+      <div class="hero__lead">
+        <h1 class="hero__title">
+          <span class="line"><span>Quantum Ideas,</span></span><em class="gradient-text">Matter.</em></span></span>
+        </h1>
+
+        <div class="hero__aside">
+          <p class="hero__lede">
+            QNITA — a quantum computing initiative at NIT Agartala, known for workshops, hackathons, and hosting Qiskit
+            Fall Fest with IBM.
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn btn--primary btn--lg magnet" href="#fallfest">
+              <span>Explore Fall Fest '24</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M13 5l7 7-7 7" />
+              </svg>
+            </a>
+            <button class="btn btn--ghost btn--lg magnet" id="audioBtn" aria-label="Play voice note">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M8 5v14l11-7z" />
+              </svg>
+              <span id="audioLabel">Voice note</span>
+            </button>
+            <audio id="audioPlayer" src="/static/audio.m4a" preload="metadata"></audio>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__strip">
+      <div class="container hero__strip-inner">
+        <div class="hero__strip-cell">
+          <span>Status</span>
+          <strong><i class="dot dot--green"></i>Active</strong>
+        </div>
+        <div class="hero__strip-cell">
+          <span>Members</span>
+          <strong data-count="500" data-suffix="+">0</strong>
+        </div>
+        <div class="hero__strip-cell">
+          <span>Latest event</span>
+          <strong>Qiskit Fall Fest '24</strong>
+        </div>
+        <div class="hero__strip-cell">
+          <span>Mode</span>
+          <strong>Hybrid &mdash; lab + online</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== About ==================== -->
+  <section class="section" id="about">
     <div class="container">
-        <div class="row">
-            <!-- Text Content Section -->
-            <div class="col-lg-6 align-self-center">
-                <div class="content-block" data-aos="fade-right" style="text-align: justify;">
-                    <h4 style="text-transform: uppercase; font-weight: 600; letter-spacing: 1px;">Welcome To</h4>
-                    <h4 style="font-weight: 700; text-transform: uppercase;text-align: left;">NIT Agartala's <span style='color:rgba(106, 0, 182, 0.93)'>Qiskit Fall Fest</span></h4>
-                    <p style="line-height: 1.8; margin: 20px 0; text-align: justify;">
-                        Welcome to NIT Agartala’s very first Qiskit Fall Fest, a thrilling journey into the realm of quantum computing, brought to you in collaboration with IBM!
-                    </p>
-                    <p style="line-height: 1.8; margin-bottom: 20px; text-align: justify;">
-                        Whether you're an experienced quantum wizard or completely new to the field, this event is designed to spark your curiosity and fuel your passion for this trailblazing technology.
-                    </p>
+      <div class="section__head reveal">
+        <div class="kicker">01 — About</div>
+        <h2 class="display">A community for the curious.<br><span class="muted">Built by students. Backed by
+            industry.</span></h2>
+      </div>
 
-                    <ul style="list-style-type: none; padding-left: 0; margin-bottom: 30px;">
-                        <li style="display: flex; align-items: center; margin-bottom: 10px;">
-                            <span style="color: rgba(106, 0, 182, 0.93); margin-right: 10px;"><i class="fa fa-check-circle" aria-hidden="true"></i></span> Hands-on workshops, challenges, and hackathons
-                        </li>
-                        <li style="display: flex; align-items: center; margin-bottom: 10px;">
-                            <span style="color: rgba(106, 0, 182, 0.93); margin-right: 10px;"><i class="fa fa-check-circle" aria-hidden="true"></i></span> Learn all the fundamentals from scratch
-                        </li>
-                        <li style="display: flex; align-items: center; margin-bottom: 10px;">
-                            <span style="color: rgba(106, 0, 182, 0.93); margin-right: 10px;"><i class="fa fa-check-circle" aria-hidden="true"></i></span> Connect with the brightest minds in quantum computing
-                        </li>
-                    </ul>
-
-                    <a href="/aboutUs" class="btn btn-main-md" style="background-color: rgba(106, 0, 182, 0.93); color: #fff; padding: 10px 20px; border-radius: 50px; text-transform: uppercase; font-weight: 600; text-decoration: none;">Read More</a>
-                </div>
-            </div>
-
-            <!-- Single Image Section -->
-            <div class="col-lg-6 d-none d-lg-block">
-				<div class="image-block" data-aos="fade-left" style="box-shadow: rgba(106, 0, 182, 0.4) 5px 5px, rgba(106, 0, 182, 0.3) 10px 10px, rgba(106, 0, 182, 0.2) 15px 15px, rgba(106, 0, 182, 0.1) 20px 20px, rgba(106, 0, 182, 0.05) 25px 25px;">
-					<img src="/static/images/speakers/about.png" class="img-fluid rounded" alt="Event Image" style="border-radius: 10px; width: 100%; height: auto;">
-				</div>
-			</div>
-			
+      <div class="about__grid">
+        <div class="about__copy reveal">
+          <p>QNITA brings together students who want to do more than read about quantum computing — they want to build
+            with it. We host hands-on Qiskit workshops, mentor first-time researchers, run hackathons, and connect our
+            campus with the global quantum community.</p>
+          <p>From Bloch spheres to real circuits on IBM hardware, every event is designed to lower the barrier and raise
+            the ceiling.</p>
+          <ul class="about__pills">
+            <li>Hands-on Qiskit labs</li>
+            <li>Hackathons</li>
+            <li>Speaker sessions</li>
+            <li>Research mentorship</li>
+          </ul>
+          <a class="btn btn--ghost" href="/aboutUs">Read our story →</a>
         </div>
+
+        <div class="about__visual reveal">
+          <figure class="figure">
+            <img src="/static/images/speakers/about.png" alt="QNITA at NIT Agartala" loading="lazy">
+          </figure>
+        </div>
+      </div>
     </div>
-</section>
+  </section>
 
-<!--====  End of About  ====-->
-
-
-<!--==============================
-=            hosted            =
-===============================-->
-<section class="sponsors section">
-	<div class="container">
-		<div class="row">
-			<div class="col-12">
-				<div class="section-title">
-					<h3>HOSTED <span class="alternate">BY</span></h3>
-					<p>Hosted by NIT Agartala, with support from IBM and Qiskit, this Fall Fest sets the stage for a quantum revolution with IBM’s pioneering technology and Qiskit’s powerful open-source framework. Gear up to execute quantum algorithms and amplify your knowledge— the future of computing is just a few lines of code away!</p>
-				</div>
-			</div>
-		</div>
-		<div class="row" data-aos="zoom-out-down">
-			<div class="col-12">
-				<!-- Title -->
-				<div class="sponsor-title text-center">
-				</div>
-				<div class="block text-center">
-					<!-- Sponsors image list -->
-					<ul class="list-inline sponsors-list">
-						<li class="list-inline-item">
-							<div class="image-block text-center">
-								<a href="#">
-									<img src="/static/images/sponsors/ibm.png" alt="sponsors-logo" class="img-fluid" loading="lazy">
-								</a>
-							</div>
-						</li>
-						<li class="list-inline-item">
-							<div class="image-block text-center">
-								<a href="#">
-									<img src="/static/images/sponsors/nita.png" alt="sponsors-logo" class="img-fluid" loading="lazy">
-								</a>
-							</div>
-						</li>
-						<li class="list-inline-item">
-							<div class="image-block text-center">
-								<a href="#">
-									<img src="/static/images/sponsors/qiskit.png" alt="sponsors-logo" class="img-fluid" loading="lazy">
-								</a>
-							</div>
-						</li>
-						<li class="list-inline-item">
-							<div class="image-block text-center">
-								<a href="#">
-									<img src="/static/images/sponsors/IEEE.jpg" alt="sponsors-logo" class="img-fluid" loading="lazy">
-								</a>
-							</div>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-<!--====  End of hosted  ====-->
-<!--==================================
-
-<!--==============================
-=            Speakers            =
-===============================-->
-<section class="section speakers" id="speakers">
+  <!-- ==================== Featured Event: Fall Fest ==================== -->
+  <section class="section section--feature" id="fallfest">
     <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <!-- Section Title -->
-                <div class="section-title black" style="text-align: center; margin-bottom: 30px;">
-                    <h3 style="color: #ffffff; font-size: 2.5em;">
-                        OUR <span style="background: linear-gradient(45deg, #6a00b6, #ff4081); -webkit-background-clip: text; color: transparent;">SPEAKERS</span>
-                    </h3>
-                    <p style="color: #cccccc; font-size: 1.1em;">
-                        Unveiling the minds shaping the quantum frontier—meet the esteemed speakers of Qiskit Fall Fest, guiding us into the future of quantum innovation.
-                    </p>
-                </div>
-            </div>
+      <div class="feature__hero reveal">
+        <div class="kicker">02 — Flagship event</div>
+        <div class="feature__title-row">
+          <h2 class="display">
+            Qiskit Fall&nbsp;Fest <span class="gradient-text">2024</span>
+          </h2>
+          <span class="badge badge--success">Concluded · Recap below</span>
         </div>
-        <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px;">
-            {% for speaker in [
-                {'name': 'Aditi Lal', 'title': 'Quantum Computing Educator & Public Speaker', 'linkedin': 'https://www.linkedin.com/in/aditi-lal-sau11/'},
-                {'name': 'Jay Shah', 'title': 'Quantum ML Developer @ BosonQ Psi Pvt Ltd', 'linkedin': 'https://www.linkedin.com/in/jay-shah-qml/'},
-                {'name': 'Vardaan Sahgal', 'title': 'Software Solutions Head @Womanium Quantum', 'linkedin': 'https://www.linkedin.com/in/vardaansahgal/'},
-                {'name': 'Prasanta k. Panigrahi', 'title': 'Professor at IISER Kolkata', 'linkedin': 'https://www.linkedin.com/in/prasanta-panigrahi-a2276457/'}
-            ] %}
-            <div style="background: #1a1a1a; border-radius: 15px; border: 2px solid; border-image-slice: 1; border-image-source: linear-gradient(135deg, #6a00b6, #ff4081); box-shadow: rgba(106, 0, 182, 0.8) 0px 10px 40px; display: flex; flex-direction: column; justify-content: space-between; height: 350px; width: calc(25% - 20px); min-width: 250px; padding: 20px; text-align: center; position: relative; cursor: pointer; overflow: hidden;">
-                
-                <!-- Profile Image -->
-                <div style="width: 120px; height: 120px; margin: 0 auto; overflow: hidden; border-radius: 50%; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);">
-                    <img src="/static/images/speakers/{{ speaker.name.replace(' ', '') }}.jpeg" alt="{{ speaker.name }}" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;" loading="lazy">
-                </div>
-        
-                <!-- Name and Title -->
-                <div style="margin-top: 15px; flex-grow: 1;">
-                    <h5 style="color: #ffffff; font-size: 1rem; font-weight: bold; margin: 10px 0;">{{ speaker.name.upper() }}</h5>
-                    <p style="color: #bbbbbb; font-size: 0.8rem; margin: 0 15px;">{{ speaker.title }}</p>
-                </div>
-                
-                <!-- Horizontal Rule -->
-                <hr style="border-color: #555; margin: 15px 0;">
-        
-                <!-- Social Links -->
-                <div style="display: flex; justify-content: center; margin-bottom: 15px;">
-                    <a href="{{ speaker.linkedin }}" target="_blank" style="width: 35px; height: 35px; background: linear-gradient(135deg, #6a00b6, #ff4081); display: flex; align-items: center; justify-content: center; border-radius: 50%; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); transition: background 0.3s;">
-                        <i class="fa fa-linkedin" style="color: white; font-size: 1.2rem;"></i>
-                    </a>
-                </div>
-            </div>
-            {% endfor %}
+        <p class="feature__lede">
+          A 14-day journey into quantum computing — hosted by NIT Agartala in collaboration
+          with IBM Quantum, Qiskit, and IEEE. Workshops, lectures, and a hackathon, all
+          building toward one shared idea: quantum is closer than you think.
+        </p>
+      </div>
+
+      <div class="feature__stats reveal">
+        <div class="stat">
+          <div class="stat__num">27 OCT — 14 NOV</div>
+          <div class="stat__label">Event window</div>
         </div>
+        <div class="stat">
+          <div class="stat__num">4+</div>
+          <div class="stat__label">Industry speakers</div>
+        </div>
+        <div class="stat">
+          <div class="stat__num">500+</div>
+          <div class="stat__label">Registered seats</div>
+        </div>
+        <div class="stat">
+          <div class="stat__num">14</div>
+          <div class="stat__label">Days of programming</div>
+        </div>
+      </div>
+
     </div>
-</section>
 
+    <div class="marquee reveal" id="partners" aria-label="Hosted with">
+      <div class="marquee__edge marquee__edge--left"></div>
+      <div class="marquee__edge marquee__edge--right"></div>
+      <div class="marquee__track">
+        {% for n in range(4) %}
+        <div class="marquee__group" {% if n> 0 %}aria-hidden="true"{% endif %}>
+          <div class="marquee__item"><img src="/static/images/sponsors/ibm.png" alt="IBM" loading="lazy"></div>
+          <div class="marquee__item"><img src="/static/images/sponsors/qiskit.png" alt="Qiskit" loading="lazy"></div>
+          <div class="marquee__item"><img src="/static/images/sponsors/nita.png" alt="NIT Agartala" loading="lazy">
+          </div>
+          <div class="marquee__item"><img src="/static/images/sponsors/IEEE.jpg" alt="IEEE" loading="lazy"></div>
+          <div class="marquee__item"><img src="/static/images/sponsors/sponsor.png" alt="M3NT" loading="lazy"></div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
 
-<!--====  End of Speakers  ====-->
-<!--==============================
-=            Schedule            =
-===============================-->
-<section class="section schedule" id="schedule">
+  <!-- ==================== Speakers ==================== -->
+  <section class="section" id="speakers">
     <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="section-title">
-                    <h3>EVENT <span class="alternate">SCHEDULE</span></h3>
-                    <p>Mark your calendars - it's time to superposition your plans! Gear up for an exciting Qiskit Fall Fest lineup packed with workshops, tutorials, hackathons, and everything quantum. Don't let this event slip out of your orbit.</p>
-            
-                    <div style="margin-top: 20px;"> 
-                        <a href="https://drive.google.com/drive/folders/1qCxE2jnv68ORIRp0qNO7skNDOr-V57dq" target="_blank"  class="download-btn">
-                            Download Study Material
-                        </a>
-                    </div>
-		</div>
-            </div>
-        </div>
-        <div class="row" data-aos="zoom-out-up">
-            <div class="col-12">
-                <div class="schedule-contents">
-                    <div class="tab-content" id="pills-tabContent">
-                        <!-- Week 1 Content -->
-                        <div class="tab-pane fade show active schedule-item" id="nov20" role="tabpanel" aria-labelledby="nov20-tab">
-                            <ul class="m-0 p-0">
-                                <li class="headings">
-                                    <div class="time">Date & Time</div>
-                                    <div class="speaker">Speaker</div>
-                                    <div class="subject">Subject</div>
-                                    <div class="venue">Venue</div>
-                                </li>
-                                <li class="schedule-details">
-                                    <div class="block">
-                                        <div class="time">
-                                            <i class="fa fa-calendar"></i> 27 OCT <br>
-                                        </div>
-                                        <div class="speaker">
-                                            <img src="/static/images/speakers/AditiLal.jpeg" alt="Aditi Lal" class="img-fluid">
-                                            <span class="name">ADITI LAL</span>
-                                        </div>
-                                        <div class="subject">Inaugural ceremony, Introduction to Quantum Computing, and more...</div>
-                                        <div class="venue">Online</div>
-                                    </div>
-                                </li>
-                                <li class="schedule-details">
-                                    <div class="block">
-                                        <div class="time">
-                                            <i class="fa fa-calendar"></i> 29 OCT <br>
-                                        </div>
-                                        <div class="speaker">
-                                            <img src="/static/images/speakers/JayShah.jpeg" alt="Jay Shah" class="img-fluid">
-                                            <span class="name">JAY SHAH</span>
-                                        </div>
-                                        <div class="subject">Basics of Quantum Computing</div>
-                                        <div class="venue">Online</div>
-                                    </div>
-                                </li>
-                                <li class="schedule-details">
-                                    <div class="block">
-                                        <div class="time">
-                                            <i class="fa fa-calendar"></i> 02 NOV <br>
-                                        </div>
-                                        <div class="speaker">
-                                            <img src="/static/images/speakers/AditiLal.jpeg" alt="Aditi Lal" class="img-fluid">
-                                            <span class="name">ADITI LAL</span>
-                                        </div>
-                                        <div class="subject">Application Of Quantum Computing</div>
-                                        <div class="venue">Online</div>
-                                    </div>
-                                </li>
-                                <li class="schedule-details">
-                                    <div class="block">
-                                        <div class="time">
-                                            <i class="fa fa-calendar"></i> 03 NOV <br>
-                                        </div>
-                                        <div class="speaker">
-                                            <img src="/static/images/speakers/JayShah.jpeg" alt="Jay Shah" class="img-fluid">
-                                            <span class="name">JAY SHAH</span>
-                                        </div>
-                                        <div class="subject">Mathematics & Physics involved</div>
-                                        <div class="venue">Online</div>
-                                    </div>
-                                </li>
-				<li class="schedule-details">
-                                    <div class="block">
-                                        <div class="time">
-                                            <i class="fa fa-calendar"></i> 5 NOV <br>
-                                        </div>
-                                        <div class="speaker">
-                                            <img src="/static/images/speakers/AditiLal.jpeg" alt="Aditi Lal" class="img-fluid">
-                                            <span class="name">ADITI LAL</span>
-                                        </div>
-                                        <div class="subject">Hands-on Gates</div>
-                                        <div class="venue">Online</div>
-                                    </div>
-                                </li>
-                                <li class="schedule-details">
-                                    <div class="block">
-                                        <div class="time">
-                                            <i class="fa fa-calendar"></i> 07 NOV <br>
-                                        </div>
-                                        <div class="speaker">
-                                            <img src="/static/images/speakers/JayShah.jpeg" alt="Jay Shah" class="img-fluid">
-                                            <span class="name">JAY SHAH</span>
-                                        </div>
-                                        <div class="subject">Various ML algorithms</div>
-                                        <div class="venue">Online</div>
-                                    </div>
-                                </li>
-                                <li class="schedule-details">
-                                    <div class="block">
-                                        <div class="time">
-                                            <i class="fa fa-calendar"></i> 10 NOV <br>
-                                        </div>
-                                        <div class="speaker">
-                                            <img src="/static/images/speakers/Prasantak.Panigrahi.jpeg" alt="Prasanta K. Panigrahi" class="img-fluid">
-                                            <span class="name">PRASANTA K. PANIGRAHI</span>
-                                        </div>
-                                        <div class="subject">Jamming, Info about Hackathon & future opportunities</div>
-                                        <div class="venue">Online</div>
-                                    </div>
-                                </li>
-                                <li class="schedule-details">
-                                    <div class="block">
-                                        <div class="time">
-                                            <i class="fa fa-calendar"></i> 10 NOV <br>
-                                        </div>
-                                        <div class="speaker">
-                                            <img src="/static/images/speakers/VardaanSahgal.jpeg" alt="Vardaan Sahgal" class="img-fluid">
-                                            <span class="name">VARDAAN SAHGAL</span>
-                                        </div>
-                                        <div class="subject">Jamming, Info about Hackathon & future opportunities</div>
-                                        <div class="venue">Online</div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+      <div class="section__head reveal">
+        <div class="kicker">03 — Speakers</div>
+        <h2 class="display">Voices that shaped the Fest.</h2>
+        <p class="section__lede">Quantum educators, researchers, and engineers who joined us at NITA.</p>
+      </div>
+
+      <div class="speakers__grid">
+        {% for speaker in [
+        {'name': 'Aditi Lal', 'title': 'Quantum Computing Educator & Public Speaker', 'linkedin':
+        'https://www.linkedin.com/in/aditi-lal-sau11/', 'file': 'AditiLal'},
+        {'name': 'Jay Shah', 'title': 'Quantum ML Developer @ BosonQ Psi', 'linkedin':
+        'https://www.linkedin.com/in/jay-shah-qml/', 'file': 'JayShah'},
+        {'name': 'Vardaan Sahgal', 'title': 'Software Solutions Head @ Womanium Quantum', 'linkedin':
+        'https://www.linkedin.com/in/vardaansahgal/', 'file': 'VardaanSahgal'},
+        {'name': 'Prasanta K. Panigrahi', 'title': 'Professor, IISER Kolkata', 'linkedin':
+        'https://www.linkedin.com/in/prasanta-panigrahi-a2276457/', 'file': 'Prasantak.Panigrahi'}
+        ] %}
+        <a class="speaker reveal" href="{{ speaker.linkedin }}" target="_blank" rel="noopener">
+          <div class="speaker__photo">
+            <img src="/static/images/speakers/{{ speaker.file }}.jpeg" alt="{{ speaker.name }}" loading="lazy">
+          </div>
+          <div class="speaker__body">
+            <h3>{{ speaker.name }}</h3>
+            <p>{{ speaker.title }}</p>
+          </div>
+          <div class="speaker__cta">
+            <span>View profile</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M7 17L17 7M9 7h8v8" />
+            </svg>
+          </div>
+        </a>
+        {% endfor %}
+      </div>
     </div>
-</section>
-<!--====  End of Schedule  ====-->
+  </section>
 
-<!--==============================
-=            Sponsors            =
-===============================-->
-<section class="sponsors section" id="sponsors">
-	<div class="container">
-		<div class="row" data-aos="zoom-out-up">
-			<div class="col-12">
-				<div class="section-title">
-					<h3>OUR <span class="alternate">SPONSORS</span></h3>
-					<p>Our event is made possible thanks to the generous support of our sponsors, whose contributions help us drive innovation and knowledge-sharing in the quantum space.</p>
-				</div>
-			</div>
-		</div>
-		<div class="row" data-aos="zoom-out-up">
-			<div class="col-12">
-				<div class="block text-center">
-					<!-- Sponsors image list -->
-					<ul class="list-inline sponsors-list">
-						<li class="list-inline-item">
-							<div class="image-block text-center">
-								<a href="https://www.m3nt.com/" target="_blank" rel="noopener noreferrer">
-									<img src="/static/images/sponsors/sponsor.png" alt="M3NT Sponsor Logo" class="img-fluid" loading="lazy">
-								</a>
-							</div>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-
-<!--====  End of Sponsors  ====-->
-
-<!--====  start of blogs  ====-->
-
-<section class="news section" id="blogs">
+  <!-- ==================== Schedule ==================== -->
+  <section class="section section--alt" id="schedule">
     <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="section-title">
-                    <h3>EVENT <span class="alternate">BLOGS</span></h3>
-                    <p>Stay updated with the latest buzz from the quantum world! Our event blog captures key highlights, expert insights, and behind-the-scenes moments from Qiskit Fall Fest, keeping you in the loop on all things quantum.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="row" data-aos="zoom-out-up">
-            <div class="col-lg-4 col-md-6 col-sm-8 col-10 m-auto">
-                <div class="blog-post">
-                    <div class="post-thumb">
-                        <a href="news-single.html">
-                            <!-- Replace static image with YouTube embed iframe -->
-                            <iframe width="100%" height="235" src="https://www.youtube.com/embed/P5cGeDKOIP0" 
-                                    title="Qiskit Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
-                                    encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </a>
-                    </div>
-                    <div class="post-content">
-                        <div class="date">
-                            <h4>20<span>OCT</span></h4>
-                        </div>
-                        <div class="post-title">
-                            <h2 style="color:white;"><a href="news-single.html">WHAT IS QISKIT ?</a></h2>
-                        </div>
-                        <div class="post-meta">
-                            <ul class="list-inline">
-                                <li class="list-inline-item">
-                                    <i class="fa fa-user-o"></i>
-                                    <a href="#">QNITA</a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <i class="fa fa-heart-o"></i>
-                                    <a href="#">20</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-8 col-10 m-auto">
-                <div class="blog-post">
-                    <div class="post-thumb">
-                        <a href="news-single.html">
-                            <iframe width="100%" height="235" src="https://www.youtube.com/embed/WW7DKcrQ-7E"
-                                    title="Another Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
-                                    encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </a>
-                    </div>
-                    <div class="post-content">
-                        <div class="date">
-                            <h4>21<span>OCT</span></h4>
-                        </div>
-                        <div class="post-title">
-                            <h2><a href="news-single.html">How Quantum Computing Work</a></h2>
-                        </div>
-                        <div class="post-meta">
-                            <ul class="list-inline">
-                                <li class="list-inline-item">
-                                    <i class="fa fa-user-o"></i>
-                                    <a href="#">QNITA</a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <i class="fa fa-heart-o"></i>
-                                    <a href="#">40</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-8 col-10 m-auto">
-                <div class="blog-post">
-                    <div class="post-thumb">
-                        <a href="news-single.html">
-                            <iframe width="100%" height="235" src="https://www.youtube.com/embed/1lIfbqfoGMo"
-                                    title="Another Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
-                                    encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </a>
-                    </div>
-                    <div class="post-content">
-                        <div class="date">
-                            <h4>22<span>OCT</span></h4>
-                        </div>
-                        <div class="post-title">
-                            <h2><a href="news-single.html">The Race Of Quantum</a></h2>
-                        </div>
-                        <div class="post-meta">
-                            <ul class="list-inline">
-                                <li class="list-inline-item">
-                                    <i class="fa fa-user-o"></i>
-                                    <a href="#">QNITA</a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <i class="fa fa-heart-o"></i>
-                                    <a href="#">40</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+      <div class="section__head reveal">
+        <div class="kicker">04 — Schedule</div>
+        <h2 class="display">Fourteen days of quantum.</h2>
+        <p class="section__lede">A complete recap of the Fall Fest 2024 sessions.</p>
+        <a class="btn btn--ghost" href="https://drive.google.com/drive/folders/1qCxE2jnv68ORIRp0qNO7skNDOr-V57dq"
+          target="_blank" rel="noopener">
+          Download study material
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14" />
+          </svg>
+        </a>
+      </div>
+
+      <div class="schedule">
+        {% for s in [
+        {'date':'27 OCT','speaker':'Aditi Lal','file':'AditiLal','subject':'Inaugural ceremony · Introduction to Quantum
+        Computing'},
+        {'date':'29 OCT','speaker':'Jay Shah','file':'JayShah','subject':'Basics of Quantum Computing'},
+        {'date':'02 NOV','speaker':'Aditi Lal','file':'AditiLal','subject':'Applications of Quantum Computing'},
+        {'date':'03 NOV','speaker':'Jay Shah','file':'JayShah','subject':'Mathematics & Physics involved'},
+        {'date':'05 NOV','speaker':'Aditi Lal','file':'AditiLal','subject':'Hands-on Quantum Gates'},
+        {'date':'07 NOV','speaker':'Jay Shah','file':'JayShah','subject':'Various ML algorithms'},
+        {'date':'10 NOV','speaker':'Prasanta K. Panigrahi','file':'Prasantak.Panigrahi','subject':'Jamming · Hackathon
+        brief & future opportunities'},
+        {'date':'10 NOV','speaker':'Vardaan Sahgal','file':'VardaanSahgal','subject':'Jamming · Hackathon brief & future
+        opportunities'}
+        ] %}
+        <article class="schedule__row reveal">
+          <div class="schedule__date">{{ s.date }}</div>
+          <div class="schedule__speaker">
+            <img src="/static/images/speakers/{{ s.file }}.jpeg" alt="{{ s.speaker }}" loading="lazy">
+            <span>{{ s.speaker }}</span>
+          </div>
+          <div class="schedule__subject">{{ s.subject }}</div>
+          <div class="schedule__venue">
+            <span class="dot dot--purple"></span> Online
+          </div>
+        </article>
+        {% endfor %}
+      </div>
     </div>
-</section>
+  </section>
 
+  <!-- ==================== Blogs / Recordings ==================== -->
+  <section class="section" id="blogs">
+    <div class="container">
+      <div class="section__head reveal">
+        <div class="kicker">05 — Recordings</div>
+        <h2 class="display">Catch up on the sessions.</h2>
+        <p class="section__lede">Recorded talks, primers, and explainers from the Fall Fest series.</p>
+      </div>
 
-<!--====  End of blogs  ====-->
-<!--==============================
-=            members            =
-===============================-->
-<section style="padding: 60px 0; background-color: #000000;" id="members">
-    <div style="max-width: 1200px; margin: 0 auto;">
-        <!-- Section Heading -->
-        <div style="margin-bottom: 50px; margin-top: 60px; text-align: center;">
-            <h3 style="color: #fff;">TEAM <span class="alternate">MEMBERS</span></h3>
-            <p style="color: rgba(255, 255, 255, 0.9);">Meet the brilliant minds behind Qiskit Fall Fest! Our dedicated team of innovators and enthusiasts is working tirelessly to bring the magic of quantum computing to life at NIT Agartala</p>
-        </div>
-
-        <!-- Organizers -->
-        <div style="margin-bottom: 40px;">
-            <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px;">
-                {% for i in ['Divyansh Singhal', 'Ganesh Rehan Balivada', 'Saptadip Saha', 'Aditya Raj'] %}
-                <div style="background:#000000; border-radius: 15px; overflow: hidden; box-shadow: rgba(106, 0, 182, 0.93) 0px 10px 150px 0px; transition: all 0.4s ease-in-out; cursor: pointer; width: calc(25% - 20px); min-width: 200px; position: relative;">
-
-                    <div style="padding: 30px 20px; text-align: center;">
-                        <div style="position: relative; width: 110px; height: 110px; border-radius: 50%; margin: 0 auto; overflow: hidden; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); transition: transform 0.4s ease;">
-                            <img src="/static/images/{{ i.replace(' ', '') }}.jpeg" alt="{{ i }}" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;" loading="lazy">
-                        </div>
-                        <div style="margin-top: 20px;">
-                            <p style="font-size: 1rem; font-weight: bold; color: #fff;">{{ i.upper() }}</p>
-                            <div style="display: inline-block; padding: 5px 15px; background: transparent; border: 2px solid #800080; border-radius: 20px; color: #fff; font-size: 0.8rem; margin-top: 10px;">
-                                Organizers
-                            </div>
-
-                            <hr style="border-color: #555; margin: 20px 0;">
-
-                            <div style="display: flex; justify-content: center; gap: 15px;">
-                                <a href="#" style="width: 30px; height: 30px; background:  #800080; display: flex; align-items: center; justify-content: center; border-radius: 50%;">
-                                    <i class="fa fa-linkedin" style="color: white; font-size: 1rem;"></i>
-                                </a>
-                                <a href="#" style="width: 30px; height: 30px; background:  #800080; display: flex; align-items: center; justify-content: center; border-radius: 50%;">
-                                    <i class="fa fa-instagram" style="color: white; font-size: 1rem;"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>                
-                {% endfor %}
-            </div>
-        </div>
-
-        <!-- Developers -->
-        <div style="margin-bottom: 40px;">
-            <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px;">
-                {% for i, j in {'Aman Mishra':'Developer','Pratyush Baliarsingh':'Marketing','Vidhi Mittal':'Content','Kattamuri Sri Gayatri':'Content | PR','Soham Dey':'Public Relations', 'Sreejit Das':'Public Relations','Katta Keerthi Priya':'Public Relations','Srishant Kumar':'Graphics','Amit Kumar Meena':'Event Lead '}.items() %}
-                <div style="background:#000000; border-radius: 15px; overflow: hidden; box-shadow: rgba(106, 0, 182, 0.93) 0px 10px 150px 0px; transition: all 0.4s ease-in-out; cursor: pointer; width: calc(25% - 20px); min-width: 200px; position: relative;">
-                    <div style="padding: 30px 20px; text-align: center;">
-                        <div style="position: relative; width: 110px; height: 110px; border-radius: 50%; margin: 0 auto; overflow: hidden; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); transition: transform 0.4s ease;">
-                            <img src="/static/images/{{ i.replace(' ', '') }}.jpeg" alt="{{ i }}" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;" loading="lazy">
-                        </div>
-                        <div style="margin-top: 20px;">
-                            <p style="font-size: 1rem; font-weight: bold; color: #fff;">{{ i.upper() }}</p>
-                            <div style="display: inline-block; padding: 5px 15px; background: transparent; border: 2px solid #800080; border-radius: 20px; color: #fff; font-size: 0.8rem; margin-top: 10px;">
-                                {{ j }}
-                            </div>
-
-                            <hr style="border-color: #555; margin: 20px 0;">
-
-                            <div style="display: flex; justify-content: center; gap: 15px;">
-                                <a href="#" style="width: 30px; height: 30px; background:  #800080; display: flex; align-items: center; justify-content: center; border-radius: 50%;">
-                                    <i class="fa fa-linkedin" style="color: white; font-size: 1rem;"></i>
-                                </a>
-                                <a href="#" style="width: 30px; height: 30px; background:  #800080; display: flex; align-items: center; justify-content: center; border-radius: 50%;">
-                                    <i class="fa fa-instagram" style="color: white; font-size: 1rem;"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {% endfor %}
-            </div>
-        </div>
+      <div class="blogs__grid">
+        {% for v in [
+        {'id':'P5cGeDKOIP0','title':'What is Qiskit?','date':'20 OCT'},
+        {'id':'WW7DKcrQ-7E','title':'How quantum computing works','date':'21 OCT'},
+        {'id':'1lIfbqfoGMo','title':'The race for quantum','date':'22 OCT'}
+        ] %}
+        <article class="blog reveal">
+          <div class="blog__embed">
+            <iframe src="https://www.youtube.com/embed/{{ v.id }}" title="{{ v.title }}" frameborder="0"
+              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+              loading="lazy"></iframe>
+          </div>
+          <div class="blog__meta">
+            <span class="blog__date">{{ v.date }}</span>
+            <span>·</span>
+            <span>QNITA</span>
+          </div>
+          <h3 class="blog__title">{{ v.title }}</h3>
+        </article>
+        {% endfor %}
+      </div>
     </div>
-</section>
+  </section>
 
+  <!-- ==================== Team ==================== -->
+  <section class="section section--alt" id="team">
+    <div class="container">
+      <div class="section__head reveal">
+        <div class="kicker">06 — Team</div>
+        <h2 class="display">The people behind QNITA.</h2>
+        <p class="section__lede">Students who pulled all fourteen days together.</p>
+      </div>
 
-<!--====  End of members  ====-->
-<!--=========================
-=            FAQ            =
-==========================-->
-<section class="section faq" id="faq">
-	<div class="container">
-		<div class="row">
-			<div class="col-12">
-				<div class="section-title">
-					<h3>SOME <span class="alternate">FAQ</span></h3>
-					<p>Got questions about the event? Don't worry, we've collapsed the wave of uncertainty into a set of clear answers. Have a look at these FAQs to resolve any entanglements before the Qiskit Fall Fest begins!</p>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-6">
-				<div class="accordion-block">
-					<div id="accordion">
-						<!-- FAQ 1 -->
-						<div class="card">
-							<div class="card-header" id="headingOne">
-								<h5 class="mb-0">
-									<a data-toggle="collapse" href="#collapseOne">
-										<span class="fa fa-plus-circle"></span> Any prior knowledge is required for attendees?
-									</a>
-								</h5>
-							</div>
-							<div id="collapseOne" class="collapse show" data-parent="#accordion">
-								<div class="card-body">
-									No prior experience with quantum computing is needed! Even if you're unfamiliar with Python or quantum mechanics, don’t worry — we’ll cover the basics clearly and concisely.
-								</div>
-							</div>
-						</div>
-						<!-- FAQ 2 -->
-						<div class="card">
-							<div class="card-header" id="headingTwo">
-								<h5 class="mb-0">
-									<a data-toggle="collapse" href="#collapseTwo">
-										<span class="fa fa-plus-circle"></span> How can I stay updated on event news?
-									</a>
-								</h5>
-							</div>
-							<div id="collapseTwo" class="collapse" data-parent="#accordion">
-								<div class="card-body">
-									Stay tuned by following our social media channels and regularly checking our website for the latest updates.
-								</div>
-							</div>
-						</div>
-						<!-- FAQ 3 -->
-						<div class="card">
-							<div class="card-header" id="headingThree">
-								<h5 class="mb-0">
-									<a data-toggle="collapse" href="#collapseThree">
-										<span class="fa fa-plus-circle"></span> Can I invite friends or colleagues to attend?
-									</a>
-								</h5>
-							</div>
-							<div id="collapseThree" class="collapse" data-parent="#accordion">
-								<div class="card-body">
-									Absolutely! Guests are welcome to join, but ensure they’re registered for the event, especially since offline seats are limited.
-								</div>
-							</div>
-						</div>
-						<!-- FAQ 4 -->
-						<div class="card">
-							<div class="card-header" id="headingFour">
-								<h5 class="mb-0">
-									<a data-toggle="collapse" href="#collapseFour">
-										<span class="fa fa-plus-circle"></span> What should I bring to the event?
-									</a>
-								</h5>
-							</div>
-							<div id="collapseFour" class="collapse" data-parent="#accordion">
-								<div class="card-body">
-									Make sure to bring your personal laptop and an eagerness to learn! We’ll also send pre-event material, so please go through it with enthusiasm to make the most of the sessions.
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6">
-				<div class="accordion-block">
-					<div id="accordionTwo">
-						<!-- FAQ 5 -->
-						<div class="card">
-							<div class="card-header" id="headingFive">
-								<h5 class="mb-0">
-									<a data-toggle="collapse" href="#collapseFive">
-										<span class="fa fa-plus-circle"></span>Criteria for Achievement certificate?
-									</a>
-								</h5>
-							</div>
-							<div id="collapseFive" class="collapse" data-parent="#accordionTwo">
-								<div class="card-body">
-									Participate in the hackathon and secure top 3 positions in any of the 4 categories
-								</div>
-							</div>
-						</div>
-						<!-- FAQ 6 -->
-						<div class="card">
-							<div class="card-header" id="headingSix">
-								<h5 class="mb-0">
-									<a data-toggle="collapse" href="#collapseSix">
-										<span class="fa fa-plus-circle"></span> Is there any certification provided after the event?
-									</a>
-								</h5>
-							</div>
-							<div id="collapseSix" class="collapse" data-parent="#accordionTwo">
-								<div class="card-body">
-									Yes, all participants will receive certificates of participation. Make sure you attend the sessions actively to make the most of this opportunity!
-								</div>
-							</div>
-						</div>
-						<!-- FAQ 7 -->
-						<div class="card">
-							<div class="card-header" id="headingSeven">
-								<h5 class="mb-0">
-									<a data-toggle="collapse" href="#collapseSeven">
-										<span class="fa fa-plus-circle"></span> Are there any hands-on activities during the event?
-									</a>
-								</h5>
-							</div>
-							<div id="collapseSeven" class="collapse" data-parent="#accordionTwo">
-								<div class="card-body">
-									Yes! We have planned interactive hands-on labs where participants can experiment with quantum algorithms using Qiskit on real quantum computers.
-								</div>
-							</div>
-						</div>
-						<!-- FAQ 8 -->
-						<div class="card">
-							<div class="card-header" id="headingEight">
-								<h5 class="mb-0">
-									<a data-toggle="collapse" href="#collapseEight">
-										<span class="fa fa-plus-circle"></span> How is internet connectivity at the venue?
-									</a>
-								</h5>
-							</div>
-							<div id="collapseEight" class="collapse" data-parent="#accordionTwo">
-								<div class="card-body">
-									Don't worry, NIT Agartala provides reliable internet connectivity. If you're attending online and face any connectivity issues, we’ve got you covered — recorded lectures will be provided to ensure you don’t miss out on anything.
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<!--====  End of FAQ  ====-->
-{% endblock %}
-<!--============================
-=            Footer            =
-=============================-->
-
-<footer style="background-color: #212121; color: #fff; padding: 40px 0;">
-    <div style="max-width: 1200px; margin: 0 auto; padding: 0 20px;">
-        <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
-            <!-- Contact Info -->
-            <div style="flex: 1; min-width: 250px; margin-bottom: 30px;">
-                <h4 style="border-bottom: 2px solid #fff; padding-bottom: 10px; margin-bottom: 20px; color: white">CONTACT <span class="alternate">INFO</span></h4>
-                <ul style="list-style: none; padding: 0; ">
-                    <li><p style="margin: 0;">Address: National Institute of Technology Agartala
-						Jirania , West Tripura <br>Pin - 799046</p></li>
-                    <li><a href="#" style=" text-decoration: none;">Phone: +91 70054 15535</a></li>
-                    <li><a href="mailto:qnita.explore@gmail.com" style=" text-decoration: none;">Email: qnita.explore@gmail.com</a></li>
-                </ul>
+      <div class="team__group reveal">
+        <div class="team__label">Organizers</div>
+        <div class="team__grid">
+          {% for i in ['Divyansh Singhal', 'Ganesh Rehan Balivada', 'Saptadip Saha', 'Aditya Raj'] %}
+          <div class="member">
+            <div class="member__photo">
+              <img src="/static/images/{{ i.replace(' ', '') }}.jpeg" alt="{{ i }}" loading="lazy">
             </div>
+            <div class="member__name">{{ i }}</div>
+            <div class="member__role">Organizer</div>
+          </div>
+          {% endfor %}
         </div>
+      </div>
 
-        <!-- Footer Bottom -->
-        <div style="border-top: 1px solid #fff; padding: 20px 0; margin-top: 30px;">
-            <div style="display: flex; justify-content: space-between; align-items: center;">
-                <!-- Copyright Notice -->
-                <div style="flex: 1;">
-                    <p style="margin: 0; font-size: 0.9rem;">
-                        COPYRIGHT &copy; ALL RIGHTS RESERVRED | QNITA (NIT AGARTALA)
-                    </p>
-                </div>
-                <!-- Social Media Links -->
-                <div style="flex: 1; text-align: right;">
-					<a href="#" style="color: #fff; font-size: 1.5rem; margin: 0 10px;" title="Youtube"><i class="fa fa-youtube"></i></a>
-                    <a href="https://www.instagram.com/qnita.explore/" style="color: #fff; font-size: 1.5rem; margin: 0 10px;" title="Instagram"><i class="fa fa-instagram"></i></a>
-                    <a href="#" style="color: #fff; font-size: 1.5rem; margin: 0 10px;" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
-                </div>
+      <div class="team__group reveal">
+        <div class="team__label">Core team</div>
+        <div class="team__grid">
+          {% for i, j in {'Aman Mishra':'Developer','Pratyush Baliarsingh':'Marketing','Vidhi
+          Mittal':'Content','Kattamuri Sri Gayatri':'Content · PR','Soham Dey':'Public Relations','Sreejit Das':'Public
+          Relations','Katta Keerthi Priya':'Public Relations','Srishant Kumar':'Graphics','Amit Kumar Meena':'Event
+          Lead'}.items() %}
+          <div class="member">
+            <div class="member__photo">
+              <img src="/static/images/{{ i.replace(' ', '') }}.jpeg" alt="{{ i }}" loading="lazy">
             </div>
+            <div class="member__name">{{ i }}</div>
+            <div class="member__role">{{ j }}</div>
+          </div>
+          {% endfor %}
         </div>
+      </div>
     </div>
-</footer>
+  </section>
 
+  <!-- ==================== FAQ ==================== -->
+  <section class="section" id="faq">
+    <div class="container container--narrow">
+      <div class="section__head reveal">
+        <div class="kicker">07 — FAQ</div>
+        <h2 class="display">Frequently asked.</h2>
+      </div>
 
-  <!-- JAVASCRIPTS -->
-  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-  <script src="/static/js/particles.js"></script>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <div class="faq">
+        {% for q, a in [
+        ('Do I need prior quantum knowledge?', 'No. We cover the basics from scratch — no Python or quantum mechanics
+        background required.'),
+        ('How do I stay updated?', 'Follow @qnita.explore on Instagram and check this site for upcoming events.'),
+        ('Can I bring friends to events?', 'Yes — guests are welcome, but please make sure they register, especially for
+        offline seats.'),
+        ('What should I bring?', 'A laptop and curiosity. We share pre-event reading so you can hit the ground
+        running.'),
+        ('Is there a certificate?', 'All active participants receive a participation certificate. Hackathon top-3 across
+        categories receive achievement certificates.'),
+        ('Are there hands-on labs?', 'Yes — interactive sessions where you run circuits using Qiskit on real IBM quantum
+        hardware.'),
+        ('What about internet at the venue?', 'NITA provides reliable connectivity, and recorded talks are shared so you
+        never miss anything.')
+        ] %}
+        <details class="faq__item reveal">
+          <summary>
+            <span>{{ q }}</span>
+            <span class="faq__plus" aria-hidden="true"></span>
+          </summary>
+          <div class="faq__answer">{{ a }}</div>
+        </details>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CTA ==================== -->
+  <section class="cta">
+    <div class="container container--narrow">
+      <div class="cta__simple reveal">
+        <h2 class="cta__heading">Get in touch.</h2>
+        <p class="cta__sub">
+          Questions, collaborations, or just curious about quantum &mdash; we're here.
+        </p>
+        <div class="cta__row">
+          <a class="btn btn--primary btn--lg" href="mailto:qnita.explore@gmail.com">
+            qnita.explore@gmail.com
+          </a>
+          <a class="btn btn--ghost btn--lg" href="https://www.instagram.com/qnita.explore/" target="_blank"
+            rel="noopener">
+            @qnita.explore
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {% endblock %}
+
+  <!-- ==================== Footer ==================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <img src="/static/images/logo.png" alt="QNITA">
+          <p>Quantum Computing Club<br>National Institute of Technology Agartala</p>
+        </div>
+
+        <div class="footer__col">
+          <h4>Explore</h4>
+          <a href="#about">About</a>
+          <a href="#fallfest">Fall Fest '24</a>
+          <a href="#speakers">Speakers</a>
+          <a href="#schedule">Schedule</a>
+        </div>
+
+        <div class="footer__col">
+          <h4>More</h4>
+          <a href="/aboutUs">Our story</a>
+          <a href="#team">Team</a>
+          <a href="#faq">FAQ</a>
+          <a href="https://drive.google.com/drive/folders/1qCxE2jnv68ORIRp0qNO7skNDOr-V57dq" target="_blank"
+            rel="noopener">Resources</a>
+        </div>
+
+        <div class="footer__col">
+          <h4>Contact</h4>
+          <p>NIT Agartala, Jirania,<br>West Tripura — 799046</p>
+          <a href="mailto:qnita.explore@gmail.com">qnita.explore@gmail.com</a>
+          <a href="tel:+917005415535">+91 70054 15535</a>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>© <span id="year"></span> QNITA · NIT Agartala</p>
+        <div class="footer__social">
+          <a href="https://www.instagram.com/qnita.explore/" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <rect x="3" y="3" width="18" height="18" rx="5" />
+              <circle cx="12" cy="12" r="4" />
+              <circle cx="17.5" cy="6.5" r="1" fill="currentColor" />
+            </svg>
+          </a>
+          <a href="#" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <rect x="3" y="3" width="18" height="18" rx="3" />
+              <path d="M8 10v7M8 7v.01M12 17v-4a2 2 0 014 0v4M12 13v4" />
+            </svg>
+          </a>
+          <a href="#" aria-label="YouTube">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <rect x="2" y="6" width="20" height="12" rx="3" />
+              <path d="M10 9l5 3-5 3V9z" fill="currentColor" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lenis smooth scroll -->
+  <script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script>
   <script>
-		AOS.init({
-			offset:200,
-		});
-  </script>
-  <script>
-		const phrases = ["Quantum Computing Event", "Event Hosted By NIT Agartala", "Quantum Event", "Hackathon & much more..."];
-		let i = 0;
-		let j = 0;
-		let currentPhrase = [];
-		let isDeleting = false;
-		
-		function loop() {
-		const targetElement = document.getElementById('dynamic-text');
-		
-		targetElement.innerHTML = currentPhrase.join('');
-		
-		if (!isDeleting && j < phrases[i].length) {
-		    currentPhrase.push(phrases[i][j]);
-		    j++;
-		} else if (isDeleting && j > 0) {
-		    currentPhrase.pop();
-		    j--;
-		} else if (!isDeleting && j === phrases[i].length) {
-		    isDeleting = true;
-		    setTimeout(loop, 1000); 
-		    return;
-		} else if (isDeleting && j === 0) {
-		    isDeleting = false;
-		    i++;
-		    if (i === phrases.length) {
-		    i = 0;
-		    }
-		}
-		
-		
-		const speed = isDeleting ? 50 : 100;
-		setTimeout(loop, speed);
-		}
-		
-		loop();
+    // ===== Lenis smooth scroll =====
+    const lenis = new Lenis({
+      duration: 1.15,
+      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+      smoothWheel: true,
+      wheelMultiplier: 1,
+      touchMultiplier: 1.4,
+    });
+    function raf(time) { lenis.raf(time); requestAnimationFrame(raf); }
+    requestAnimationFrame(raf);
 
+    // anchor links → lenis scrollTo
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const id = a.getAttribute('href');
+        if (id.length > 1) {
+          const target = document.querySelector(id);
+          if (target) {
+            e.preventDefault();
+            lenis.scrollTo(target, { offset: -72 });
+          }
+        }
+      });
+    });
+
+    // ===== Year =====
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // ===== Loader =====
+    lenis.stop();
+    const loader = document.getElementById('loader');
+    const minShow = 1400;
+    const start = performance.now();
+    function dismissLoader() {
+      const elapsed = performance.now() - start;
+      const wait = Math.max(0, minShow - elapsed);
+      setTimeout(() => {
+        loader.classList.add('is-out');
+        document.body.classList.add('is-loaded');
+        lenis.start();
+        setTimeout(() => loader.remove(), 900);
+      }, wait);
+    }
+    if (document.readyState === 'complete') dismissLoader();
+    else window.addEventListener('load', dismissLoader);
+
+    // ===== Mobile nav =====
+    const toggle = document.getElementById('navToggle');
+    const mobile = document.getElementById('navMobile');
+    toggle.addEventListener('click', () => {
+      const open = mobile.classList.toggle('is-open');
+      toggle.classList.toggle('is-open', open);
+      toggle.setAttribute('aria-expanded', open);
+    });
+    mobile.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+      mobile.classList.remove('is-open');
+      toggle.classList.remove('is-open');
+      toggle.setAttribute('aria-expanded', 'false');
+    }));
+
+    // ===== Sticky nav blur =====
+    const nav = document.querySelector('.nav');
+    lenis.on('scroll', ({ scroll }) => {
+      nav.classList.toggle('is-scrolled', scroll > 8);
+    });
+
+    // ===== Scroll reveal =====
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('is-visible');
+          io.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+    document.querySelectorAll('.reveal, [data-anim]').forEach(el => io.observe(el));
+
+    // ===== Count-up =====
+    const counters = document.querySelectorAll('[data-count]');
+    const countObs = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (!e.isIntersecting) return;
+        const el = e.target;
+        const target = +el.dataset.count;
+        const suffix = el.dataset.suffix || '';
+        const dur = 1400;
+        const t0 = performance.now();
+        const tick = (t) => {
+          const p = Math.min(1, (t - t0) / dur);
+          const eased = 1 - Math.pow(1 - p, 3);
+          el.textContent = Math.floor(target * eased) + (p === 1 ? suffix : '');
+          if (p < 1) requestAnimationFrame(tick);
+        };
+        requestAnimationFrame(tick);
+        countObs.unobserve(el);
+      });
+    }, { threshold: 0.4 });
+    counters.forEach(c => countObs.observe(c));
+
+    // ===== Magnetic buttons =====
+    const isCoarse = matchMedia('(pointer: coarse)').matches;
+    if (!isCoarse) {
+      document.querySelectorAll('.magnet').forEach(el => {
+        const strength = 14;
+        el.addEventListener('mousemove', (e) => {
+          const r = el.getBoundingClientRect();
+          const x = (e.clientX - r.left - r.width / 2) / r.width;
+          const y = (e.clientY - r.top - r.height / 2) / r.height;
+          el.style.transform = `translate(${x * strength}px, ${y * strength}px)`;
+        });
+        el.addEventListener('mouseleave', () => { el.style.transform = ''; });
+      });
+    }
+
+    // ===== Hero audio =====
+    const audio = document.getElementById('audioPlayer');
+    const audioBtn = document.getElementById('audioBtn');
+    const audioLabel = document.getElementById('audioLabel');
+    if (audio && audioBtn) {
+      audioBtn.addEventListener('click', () => {
+        if (audio.paused) {
+          audio.play().then(() => {
+            audioBtn.classList.add('is-playing');
+            audioLabel.textContent = 'Pause';
+          }).catch(() => {
+            audioLabel.textContent = 'Unavailable';
+          });
+        } else {
+          audio.pause();
+          audioBtn.classList.remove('is-playing');
+          audioLabel.textContent = 'Voice note';
+        }
+      });
+      audio.addEventListener('ended', () => {
+        audioBtn.classList.remove('is-playing');
+        audioLabel.textContent = 'Voice note';
+      });
+    }
   </script>
 
-  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js" defer></script>
-  <script src="/static/js/particles.js" defer></script>
-  <script id="luma-checkout" src="https://embed.lu.ma/checkout-button.js" defer></script>
-  <script src="/static/plugins/jquery/jquery.js" defer></script>
-  <script src="/static/plugins/bootstrap/js/bootstrap.min.js" defer></script>
-  <script src="/static/plugins/smoothscroll/SmoothScroll.min.js" defer></script>
-  <script src="/static/js/custom.js" defer></script>
-  
 </body>
 
 </html>
